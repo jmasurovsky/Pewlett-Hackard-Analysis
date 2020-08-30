@@ -25,3 +25,5 @@
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
+- 2 additional queries:
+    - group mentorship eligibility by title
