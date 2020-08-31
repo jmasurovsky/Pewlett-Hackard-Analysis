@@ -42,4 +42,4 @@ There are a total of 90,398 employees that will be part of the silver tsunami. A
 Table 4. Mentorship eligibility employees per title
 
 
-Two queries to add to the analysis would be how to get Table 4 above by grouping employees participating in the mentorship program by their titles. Another query would be to remove any employees from the retirement_titles.csv dataset that do not reflect current employees at the company
+Two queries to add to the analysis would be how to get Table 4 above by grouping employees participating in the mentorship program by their titles. Another query would be to remove any employees from the retirement_titles.csv dataset that do not reflect current employees at the company. This would filter out the dataset and make it more accuarate silver tsunami prediction.
