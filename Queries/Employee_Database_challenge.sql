@@ -42,3 +42,14 @@ AND (de.to_date = '9999-01-01')
 ORDER BY emp_no;
 
 SELECT * FROM mentorship_eligibilty;
+
+
+-- Added query on mentorship eligibility: Get the count #
+SELECT COUNT(*) FROM mentorship_eligibilty;
+
+-- Added query on mentorship eligibility: Count all Grouped by title 
+SELECT COUNT(title), title
+FROM mentorship_eligibilty
+GROUP BY title
+ORDER BY count DESC;
+
