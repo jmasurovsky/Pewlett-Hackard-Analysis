@@ -12,26 +12,34 @@ The purpose of this analysis was continue assisting Pewlett-Hackard in providing
 - In addition in the retirement titles dataset, the 'to_date' field contains dates that are not representative of current employees, but reflect employees already retired.
 
 
-![img_1]()
+![img_1](https://github.com/jmasurovsky/Pewlett-Hackard-Analysis/blob/master/Images/retirement_title.png)
+
+Table 1. Snippet of retirement_titles.csv
 
 
 - Senior Engineer is the title that contains the most employees that will be retiring from the company with 29,414 employees. Manager has the least number of employees that will be retiring with only 2 employees. 
 
 
-![img_2]()
+![img_2](https://github.com/jmasurovsky/Pewlett-Hackard-Analysis/blob/master/Images/retiring_titles.png)
+
+Table 2. Retiring employees per title
 
 
 - Of the current employees born in the year 1965, 1,549 are eligible to participate for the mentorship program.
 
 
-![img_3]()
+![img_3](https://github.com/jmasurovsky/Pewlett-Hackard-Analysis/blob/master/Images/mentorship_eligibility_count.png)
+
+Table 3. Count of mentorship eligibility employees
 
 
 ## Summary
 
 There are a total of 90,398 employees that will be part of the silver tsunami. About 30% are Senior Engineers, meaning P-H may need to fill less roles and promote current employees to higher titles. Taking a look at Table 4 below, an addition query was created to determine the number of employees per title that are involved in the mentorship program. In comparison to the retiring titles table, there are no current selected Managers in the mentorship program, while there will be 2 retiring. 
 
-![img_4]()
+![img_4](https://github.com/jmasurovsky/Pewlett-Hackard-Analysis/blob/master/Images/mentorship_program_titles.png)
+
+Table 4. Mentorship eligibility employees per title
 
 
 Two queries to add to the analysis would be how to get Table 4 above by grouping employees participating in the mentorship program by their titles. Another query would be to remove any employees from the retirement_titles.csv dataset that do not reflect current employees at the company
